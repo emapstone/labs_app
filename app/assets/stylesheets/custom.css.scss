@@ -1,0 +1,68 @@
+@import "bootstrap";
+
+.homepagetxt {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  color: #666666
+}
+
+
+.creditextra {
+	text-align: center;
+}
+
+.lines {
+	width:"100%";
+	border-bottom-style:solid;
+/*	color:#0099cc; */
+	color:#eeeeee;
+	size:1;
+}
+
+.socialmedia{
+	float:right;
+	padding-top:10px;
+	padding-right: 20px;
+}
+
+.cologo{
+	align:left;
+	padding-top:10px;
+	padding-left:20px;
+}
+
+.names{
+	text-align: left;
+}
+	
+
+.rounded {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #21B6A5;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.colortxt {
+	color: #21B6A5;
+	font-size: 19px;
+}
+
+.colortxt2 {
+	color: #21B6A5;
+	font-size: 22px;
+	font-variant:small-caps; 
+	padding-right:10px;
+}
+
+
+.blogtxt {
+	color: #aa3366;
+}
