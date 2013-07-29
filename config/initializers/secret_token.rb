@@ -5,19 +5,5 @@
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
 
-require 'securerandom'
 
-def secure_token
-  token_file = Rails.root.join('.secret')
-  if File.exist?(token_file)
-    # Use the existing token.
-    File.read(token_file).chomp
-  else
-    # Generate a new token and store it in token_file.
-    token = SecureRandom.hex(64)
-    File.write(token_file, token)
-    token
-  end
-end
-
-LabsApp::Application.config.secret_key_base = secure_token
+LabsApp::Application.config.secret_token = 'b4864f7acc56353832a2b17e1a0571c0399fa28030315fac5bdc9b23ecf31cde09a2632fa3763ff63da13f05a8e6566cfb8bf017aae2f0724303f3866516645b'
