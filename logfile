@@ -1,0 +1,4 @@
+LOG:  database system was shut down at 2013-07-30 13:41:08 PDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  database "research" does not exist
